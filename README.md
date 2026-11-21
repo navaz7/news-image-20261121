@@ -1,0 +1,11 @@
+# The World Today — 21 November 2026 in one image
+
+One front page that sums up Saturday, 21 November 2026. The hero story: Russia fires more than 400 drones and 110 missiles at Ukraine, killing at least eight people in Kyiv, while two Russian missiles and a suspected drone come down in Poland — Prime Minister Tusk calls it a deliberate provocation and NATO calls it a grave violation of Polish airspace. Beside it: the AI stock rout wipes $4 trillion off Wall Street as the S&P 500 falls 3.7% into correction and Anthropic's record IPO fizzles; the International Court of Justice rules 9–6 that Myanmar committed genocide against the Rohingya, the first such verdict in the court's history; the UK and EU seal a post-Brexit reset deal on food trade, carbon markets and youth mobility at their Brussels summit; and Cyclone Akvan soaks Odisha after crossing the coast at Gopalpur, with 440,000 people moved to safety. The ticker along the bottom carries the rest of the day in brief: Peru's magnitude 6.7 earthquake, COP31 running overtime with no deal, the Palisades fire arson conviction, and Verstappen taking pole for the Las Vegas Grand Prix.
+
+## How it was made
+
+`entry.png` (1024×1024) is composed entirely by `build_image.py` (Python + Pillow): every graphic — the Poland/Ukraine map, the falling market chart, the Hague courthouse, the UK and EU flags and the cyclone spiral — is drawn with shapes in a navy/crimson/cream front-page layout; re-run `python3 build_image.py` to rebuild it. `main.ts` is the grader entry point: it copies `entry.png` into `$MAKEFUN_OUTPUT_DIR`.
+
+[![make.fun · news-image-20261121](https://make.fun/badge/news-image-20261121.svg)](https://make.fun/bounty/news-image-20261121?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261121)
+[![rank](https://make.fun/badge/news-image-20261121/navaz7/news-image-20261121/rank.svg)](https://make.fun/bounty/news-image-20261121/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261121)
+[![reward](https://make.fun/badge/news-image-20261121/navaz7/news-image-20261121/reward.svg)](https://make.fun/bounty/news-image-20261121?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261121)
